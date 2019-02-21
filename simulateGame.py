@@ -16,7 +16,8 @@ import random
 def simulateGame(team1, team2, canTie = True):
     
     # TODO use the ratings to Calculate this probability
-    
+    rating1 = team1[4]
+    rating2 = team2[4]
     
     prob_win1 = 0.2     # % for team1 winning
     prob_tie  = 0.35    # % for tie
