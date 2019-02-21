@@ -6,5 +6,3 @@ teams_dictionary = {
   "Leon":      [4, 2, 1, 14, 1000],
   "Chivas":    [4, 2, 1, 14, 1000]
 }
-
-print(teams_dictionary["Monterrey"])
