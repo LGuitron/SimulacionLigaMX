@@ -21,6 +21,13 @@ def update_ratings(jornada, K):
 
 # Update ratings for all teams based on previous results
 def update_all_ratings():
+    update_ratings(jornada11_2018,32)
+    update_ratings(jornada12_2018,32)
+    update_ratings(jornada13_2018,32)
+    update_ratings(jornada14_2018,32)
+    update_ratings(jornada15_2018,32)
+    update_ratings(jornada16_2018,32)
+    update_ratings(jornada17_2018,32)
     update_ratings(jornada1, 32)
     update_ratings(jornada2, 32)
     update_ratings(jornada3, 32)

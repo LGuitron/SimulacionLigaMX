@@ -1,6 +1,80 @@
 # Store past games together with the result
 # results {1,           0.5,          0}
 #         {Team1 win,   Tie, Team2 win}
+
+jornada11_2018 = [  ["Tiburones", "Leon", 0],
+                    ["Atlas", "Toluca", 1],
+                    ["Queretaro", "Tigres",0],
+                    ["Pachuca", "Cruz Azul",1],
+                    ["Necaxa","Santos", 0], 
+                    ["Monterrey", "Xolos", 1],
+                    ["Pumas","Puebla",0.5],
+                    ["Lobos","Monarcas", 1],
+                    ["America","Chivas",0.5]]
+
+
+jornada12_2018 = [  ["Santos", "Atlas", 1],
+                    ["Tiburones", "Necaxa", 0.5],
+                    ["Cruz Azul", "Monterrey",1],
+                    ["Leon", "Monarcas",0],
+                    ["Tigres","America", 0], 
+                    ["Chivas", "Pumas", 0],
+                    ["Xolos","Queretaro",0.5],
+                    ["Toluca","Pachuca", 1],
+                    ["Puebla","Lobos",0.5]]
+
+jornada13_2018 = [  ["Atlas", "Tiburones", 1],
+                    ["Queretaro", "Cruz Azul", 1],
+                    ["Pachuca", "Santos",0.5],
+                    ["America", "Xolos",1],
+                    ["Necaxa","Leon", 0], 
+                    ["Monterrey", "Toluca", 1],
+                    ["Lobos","Chivas",0.5],
+                    ["Pumas","Tigres", 0.5],
+                    ["Monarcas","Puebla",1]]
+
+jornada14_2018 = [  ["Santos", "Monterrey", 1],
+                    ["Tiburones", "Pachuca", 0],
+                    ["Necaxa", "Atlas",0.5],
+                    ["Tigres", "Lobos",0.5],
+                    ["Chivas","Monarcas", 0], 
+                    ["Cruz Azul", "America", 0.5],
+                    ["Xolos","Pumas",0],
+                    ["Toluca","Queretaro", 1],
+                    ["Leon","Puebla",0]]
+
+
+jornada15_2018 = [  ["Monarcas", "Tigres", 0],
+                    ["Puebla", "Chivas", 0.5],
+                    ["Pachuca", "Necaxa",1],
+                    ["America", "Toluca",0.5],
+                    ["Monterrey","Tiburones", 1], 
+                    ["Lobos", "Xolos", 1],
+                    ["Pumas","Cruz Azul",0],
+                    ["Queretaro","Santos", 1],
+                    ["Atlas","Leon",0.5]]
+
+jornada16_2018 = [  ["Tiburones", "Queretaro", 0.5],
+                    ["Atlas", "Pachuca", 0.5],
+                    ["Cruz Azul", "Lobos",1],
+                    ["Leon", "Chivas",0],
+                    ["Tigres","Puebla", 1], 
+                    ["Necaxa", "Monterrey", 0.5],
+                    ["Xolos","Monarcas",0],
+                    ["Toluca","Pumas", 0],
+                    ["Santos","America",0.5]]
+
+jornada17_2018 = [  ["Monarcas", "Cruz Azul", 0],
+                    ["Puebla", "Xolos", 0.5],
+                    ["Queretaro", "Necaxa",1],
+                    ["Pachuca", "Leon",0.5],
+                    ["America","Tiburones", 1], 
+                    ["Chivas", "Tigres", 0],
+                    ["Monterrey","Atlas",1],
+                    ["Pumas","Santos", 0],
+                    ["Lobos","Toluca",1]]
+
+
 jornada1 = [["Monarcas", "Toluca", 0],
             ["Puebla", "Cruz Azul",0.5],
             ["Queretaro", "Atlas",0],

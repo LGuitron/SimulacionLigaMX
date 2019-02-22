@@ -36,7 +36,6 @@ def simulateGame(team1, team2, canTie = True):
     
     # Tie outcome allowed
     if canTie:
-        print("T1 win: ", prob_win1, " Tie: " , prob_tie)
         if random_value < prob_win1:
             return 1
         elif random_value < prob_tie + prob_win1:
@@ -47,7 +46,6 @@ def simulateGame(team1, team2, canTie = True):
     # Tie not allowed (redistribute winning probabilities proportionally)
     else:
         prob_win1 = prob_win1 /(1- prob_tie)
-        print("T1 win: ", prob_win1)
         if random_value < prob_win1:
             return 1
         else:
